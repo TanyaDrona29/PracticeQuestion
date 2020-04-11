@@ -10,3 +10,4 @@ Question3--- this is a senario based  question in which the names of customer wh
 ReversesLinkedList---- this is a complete case to print a linked list in reverse order.
 BubbleSort---- complete code for sorting elements in ascending order based on bubble sort.
 SelectionSort--- this will arrange elements sin ascending order using the technique of selection sorting.
+InsertionSort--- this is to sort elements using insertionsort.
