@@ -24,6 +24,16 @@ public class MyLinkedList {
         return;
     }
 
+    public void insertAfterNode(Node preNode, int newData) {               //adding new node at a given position
+        if (preNode == null) {
+            System.out.println("previous node cannot be null");
+            return;
+        }
+        Node newNode = new Node(newData);
+        newNode.next = preNode.next;
+        preNode.next = newNode;
+    }
+
     public void printList() {              //printing linked list
         Node n = head;
         System.out.println("linked list is --->");
