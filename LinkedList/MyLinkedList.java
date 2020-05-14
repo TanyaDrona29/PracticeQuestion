@@ -9,7 +9,7 @@ public class MyLinkedList {
         head = newNode;
     }
 
-    public void append(int newData) {
+    public void append(int newData) {              //adding new node at end
         Node newNode = new Node(newData);
         if (head == null) {
             head = new Node(newData);
