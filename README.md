@@ -13,3 +13,4 @@ SelectionSort--- this will arrange elements sin ascending order using the techni
 InsertionSort--- this is to sort elements using insertionsort.
 ChatRoom----this will check weather a perticular word is in the given string of words or not
 LinkedList---complete program for linked list explanation
+LinearSearch---complete code for liner search
