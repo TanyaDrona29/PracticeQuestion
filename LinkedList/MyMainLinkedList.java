@@ -11,6 +11,11 @@ public class MyMainLinkedList {
         myLinkedList.push(1);
         myLinkedList.append(5);
         myLinkedList.insertAfterNode(myLinkedList.head.next, 21);
+        System.out.println("created linked list-->");
+        myLinkedList.printList();
+        myLinkedList.deleteNode(21);
+        System.out.println();
+        System.out.println("list after deleting element--->");
         myLinkedList.printList();
     }
 
